@@ -6,10 +6,10 @@
     <solid
         android:color="@color/colorButton"/>
     <padding
-        android:bottom="30dp"
-        android:right="10dp"
+        android:left="10dp"
         android:top="1dp"
-        android:left="10dp"/>
+        android:right="10dp"
+        android:bottom="30dp" />
     <corners
         android:bottomLeftRadius="60dp"
         android:bottomRightRadius="60dp"/>

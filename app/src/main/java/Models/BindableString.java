@@ -11,7 +11,7 @@ public class BindableString extends BaseObservable {
     private String value;
     /* @Bindable este oyente se invoca en cada actualizacion y actualiza las vistas correspondientes*/
     @Bindable
-    public String getValue(){
+    public String getValue() {
         return value != null ? value : "";
     }
 

@@ -18,7 +18,7 @@
 
 
     <string name="welcome">Welcome</string>
-    <string name="prompt_email">Enter the email</string>
+    <string name="prompt_email">Enter email</string>
     <string name="action_sign_in">Next</string>
     <string name="adam">©ADAM</string>
 
@@ -27,10 +27,15 @@
     <string name="action_sign_in_short">Sign in</string>
     <string name="prompt_password">Enter the password</string>
     <string name="error_invalid_password">This password is too short</string>
-    <string name="networks">Comprueba tu conexion a internet</string>
+    <string name="networks">Check your internet connection</string>
 
-    <string name="invalid_credentials">Credenciales invalidos</string>
+    <string name="invalid_credentials">Invalid credentials</string>
+    <string name="name">Name</string>
+    <string name="last_name">Lastname</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
     <string name="desc"></string>
+    <string name="fail_register">Failed to register users</string>
 
 
 </resources>

@@ -17,6 +17,7 @@ import ViewModels.LoginViewModels;
 
 public class VerifyEmail  extends AppCompatActivity {
     private MemoryData memoryData;
+
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -28,7 +29,7 @@ public class VerifyEmail  extends AppCompatActivity {
             _bindingEmail.setEmailModel(new LoginViewModels(this,_bindingEmail,null));
             Window window = this.getWindow();
             window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-            window.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
             window.setStatusBarColor(this.getResources().getColor(R.color.colorPink,null));
         }else{
             startActivity(new Intent(this, MainActivity.class)
