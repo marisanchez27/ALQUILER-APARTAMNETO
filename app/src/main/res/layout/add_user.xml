@@ -94,15 +94,15 @@
                         android:hint="@string/name"
                         android:textColorHint="@color/white"
                         app:errorEnabled="true"
-                        app:hintTextColor="@color/white"
-                        app:binding="@{userModel.nameUI}">
+                        app:hintTextColor="@color/white">
 
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/name_edit_text"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textColor="@color/white"
-                            android:textColorHint="@color/white" />
+                            android:textColorHint="@color/white"
+                            app:binding="@{userModel.nameUI}"/>
 
                     </com.google.android.material.textfield.TextInputLayout>
 
@@ -114,15 +114,15 @@
                         android:hint="@string/last_name"
                         android:textColorHint="@color/white"
                         app:errorEnabled="true"
-                        app:hintTextColor="@color/white"
-                        app:binding="@{userModel.lastnameUI}">
+                        app:hintTextColor="@color/white">
 
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/lastname_edit_text"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textColor="@color/white"
-                            android:textColorHint="@color/white" />
+                            android:textColorHint="@color/white"
+                            app:binding="@{userModel.lastnameUI}"/>
 
                     </com.google.android.material.textfield.TextInputLayout>
 
@@ -134,8 +134,7 @@
                         android:hint="@string/prompt_email"
                         android:textColorHint="@color/white"
                         app:errorEnabled="true"
-                        app:hintTextColor="@color/white"
-                        app:binding="@{userModel.emailUI}">
+                        app:hintTextColor="@color/white">
 
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/email_edit_text"
@@ -143,7 +142,8 @@
                             android:layout_height="wrap_content"
                             android:inputType="textEmailAddress"
                             android:textColor="@color/white"
-                            android:textColorHint="@color/white" />
+                            android:textColorHint="@color/white"
+                            app:binding="@{userModel.emailUI}"/>
                     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -155,8 +155,7 @@
                         android:hint="@string/prompt_password"
                         android:textColorHint="@color/white"
                         app:errorEnabled="true"
-                        app:hintTextColor="@color/white"
-                        app:binding="@{userModel.passwordUI}">
+                        app:hintTextColor="@color/white">
 
                         <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/password_edit_text"
@@ -164,7 +163,8 @@
                             android:layout_height="wrap_content"
                             android:inputType="textPassword"
                             android:textColor="@color/white"
-                            android:textColorHint="@color/white" />
+                            android:textColorHint="@color/white"
+                            app:binding="@{userModel.passwordUI}"/>
 
                     </com.google.android.material.textfield.TextInputLayout>
 
@@ -175,7 +175,7 @@
                         android:layout_weight="1"
                         android:entries="@array/item_roles"
                         android:background="@color/colorButton"
-                        android:selectedItemPosition="@={userModel.item.setSelectedItemPosition}"/>
+                        android:selectedItemPosition="@={userModel.item.selectedItemPosition}"/>
 
                 </LinearLayout>
             </LinearLayout>
