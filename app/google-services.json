@@ -1,41 +1,33 @@
 {
   "project_info": {
-    "project_number": "297609012126",
-    "project_id": "todo-db0ca",
-    "storage_bucket": "todo-db0ca.appspot.com"
+    "project_number": "788598104061",
+    "project_id": "renthouse-a5767",
+    "storage_bucket": "renthouse-a5767.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:297609012126:android:59e020e0220b9e80e62c8f",
+        "mobilesdk_app_id": "1:788598104061:android:7ea8136f9a7a6c6464c394",
         "android_client_info": {
-          "package_name": "com.mari.alquilerapartamento"
+          "package_name": "com.mari.kemaalquiler"
         }
       },
       "oauth_client": [
         {
-          "client_id": "297609012126-sl18higqjgo8k00ndbushrqsrbu1afa2.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.mari.alquilerapartamento",
-            "certificate_hash": "f15a006b048278136835469586a1bea4e4b26a62"
-          }
-        },
-        {
-          "client_id": "297609012126-1h7gf0ukosco7puhqi2g3bq2r9h36fro.apps.googleusercontent.com",
+          "client_id": "788598104061-ujl02fuh30526e0u9583teoisjha0942.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCBb6G_qP0VifaT-oc5DM838yH1G6eF-Mo"
+          "current_key": "AIzaSyBLJp42XfK4SSqXGUNA7sYayhKA91G_ENo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "297609012126-1h7gf0ukosco7puhqi2g3bq2r9h36fro.apps.googleusercontent.com",
+              "client_id": "788598104061-ujl02fuh30526e0u9583teoisjha0942.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
